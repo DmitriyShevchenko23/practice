@@ -1,0 +1,40 @@
+.section {
+  background-color: #f8f8f8;
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.titel {
+  margin-bottom: 21px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+  color: #646464;
+}
+.sub__titel {
+  margin-bottom: 82px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 0.5;
+
+  color: #111111;
+  text-align: center;
+}
+.btn {
+  padding: 13px 36px;
+  width: 271px;
+  border: none;
+  border-radius: 25px 0;
+  background-color: #37806b;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ffffff;
+}
