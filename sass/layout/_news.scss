@@ -4,10 +4,10 @@
   justify-content: center;
   &__item {
     position: relative;
-  }
 
-  &:not(:last-child) {
-    margin-right: 136px;
+    &:not(:last-child) {
+      margin-right: 136px;
+    }
   }
 
   &__titel {
@@ -16,7 +16,7 @@
     font-size: 30px;
     line-height: 0.9;
 
-    color: #212121;
+    color: $titel-color;
   }
 
   &__text {
@@ -25,15 +25,15 @@
     font-size: 18px;
     line-height: 1.5;
 
-    color: #646464;
+    color: $text-color;
   }
 }
 
 .background {
   width: 554px;
   height: 386px;
-  background-color: #f8f8f8;
-  border: 2px solid #b0855b;
+  background-color: $background-color;
+  border: 2px solid $border-color;
   border-radius: 100px 0;
   margin-bottom: 42px;
   &__img {

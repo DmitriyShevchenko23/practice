@@ -330,7 +330,7 @@ img {
   position: relative;
 }
 
-.news:not(:last-child) {
+.news__item:not(:last-child) {
   margin-right: 136px;
 }
 
