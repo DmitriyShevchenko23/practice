@@ -359,7 +359,7 @@ img {
 }
 
 .products__item:not(:last-child) {
-  margin-bottom: 17px;
+  margin-bottom: 130px;
 }
 
 .products__cream {
@@ -408,7 +408,7 @@ img {
 }
 
 .products__title {
-  padding-top: 139px;
+  padding-top: 161px;
   margin-bottom: 30px;
   color: #fff;
   text-transform: uppercase;
