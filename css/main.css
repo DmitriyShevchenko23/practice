@@ -419,7 +419,7 @@ img {
   }
 }
 
-.products__item {
+.products .products__item {
   padding: 0 40px 40px 40px;
   position: relative;
   max-width: 280px;
@@ -430,19 +430,19 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .products__item:not(:last-child) {
+  .products .products__item:not(:last-child) {
     margin-bottom: 130px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .products__item:not(:last-child) {
+  .products .products__item:not(:last-child) {
     margin-right: 20px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .products__item:not(:last-child) {
+  .products .products__item:not(:last-child) {
     margin-right: 27px;
   }
 }
