@@ -436,7 +436,7 @@ img {
 }
 
 .products__item--cream::before {
-  content: url(/images/ice-cream-mobile1x.png);
+  content: url(../images/ice-cream-mobile1x.png);
   display: block;
   width: 100%;
   position: absolute;
@@ -450,7 +450,7 @@ img {
 }
 
 .products__item--coffee::before {
-  content: url(/images/ice-coffee-mobile1x.png);
+  content: url(../images/ice-coffee-mobile1x.png);
   display: block;
   width: 100%;
   position: absolute;
@@ -464,7 +464,7 @@ img {
 }
 
 .products__item--milkshakes::before {
-  content: url(/images/milkshakes-mobile1x.png);
+  content: url(../images/milkshakes-mobile1x.png);
   display: block;
   width: 100%;
   position: absolute;
@@ -488,7 +488,7 @@ img {
 }
 
 .products__title::after {
-  content: url(/images/three-points.svg);
+  content: url(../images/three-points.svg);
   display: block;
   width: 100%;
   position: absolute;
