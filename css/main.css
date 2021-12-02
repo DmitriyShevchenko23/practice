@@ -413,8 +413,22 @@ img {
   border-radius: 24px;
 }
 
-.products__item:not(:last-child) {
-  margin-bottom: 130px;
+@media screen and (max-width: 767px) {
+  .products__item:not(:last-child) {
+    margin-bottom: 130px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .products__item:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .products__item:not(:last-child) {
+    margin-right: 27px;
+  }
 }
 
 .products__item--cream {
@@ -498,5 +512,9 @@ img {
   height: 40px;
   border: none;
   border-radius: 50%;
+}
+
+.products__icon {
+  fill: #d41443;
 }
 /*# sourceMappingURL=main.css.map */
