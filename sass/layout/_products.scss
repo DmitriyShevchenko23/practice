@@ -49,7 +49,7 @@
 .products__item--coffee {
   background-color: #f0d1a5;
   &::before {
-    content: url(/images/ice-coffee-mobile1x.png);
+    content: url(../images/ice-coffee-mobile1x.png);
     display: block;
     width: 100%;
     // height: 100%;
@@ -62,7 +62,7 @@
 .products__item--milkshakes {
   background-color: #c2e297;
   &::before {
-    content: url(/images/milkshakes-mobile1x.png);
+    content: url(../images/milkshakes-mobile1x.png);
     display: block;
     width: 100%;
     // height: 100%;
@@ -87,7 +87,7 @@
   text-transform: uppercase;
   color: #fff;
   &::after {
-    content: url(/images/three-points.svg);
+    content: url(../images/three-points.svg);
     display: block;
     width: 100%;
 
