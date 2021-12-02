@@ -438,7 +438,7 @@ img {
 }
 
 .products__item--cream::before {
-  content: url(/images/ice-cream-mobile1x.png);
+  content: url(../images/ice-cream-mobile1x.png);
   display: block;
   width: 100%;
   position: absolute;
@@ -452,7 +452,7 @@ img {
 }
 
 .products__item--coffee::before {
-  content: url(./images/ice-coffee-mobile1x.png);
+  content: url(../images/ice-coffee-mobile1x.png);
   display: block;
   width: 100%;
   position: absolute;

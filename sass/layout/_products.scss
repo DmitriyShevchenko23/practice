@@ -38,7 +38,7 @@
 .products__item--cream {
   background-color: #ffb8ca;
   &::before {
-    content: url(/images/ice-cream-mobile1x.png);
+    content: url(../images/ice-cream-mobile1x.png);
     display: block;
     width: 100%;
     // height: 100%;
@@ -51,7 +51,7 @@
 .products__item--coffee {
   background-color: #f0d1a5;
   &::before {
-    content: url(./images/ice-coffee-mobile1x.png);
+    content: url(../images/ice-coffee-mobile1x.png);
     display: block;
     width: 100%;
     // height: 100%;
