@@ -484,5 +484,36 @@
 
 // const anyNumber = [42, 65, 49, 68, 56, 47, 70, 42, 51, 35, 58, 63, 40, 70];
 
+// const findLongestWord = "The quick brown fox jumped over the lazy dog"
+// const strings = findLongestWord.split(' ')
+// console.log(strings)
+// let bigestWord = strings[0];
+// console.log(bigestWord)
+// for (const strings of string) {
+//     if (strings > bigestWord) {
+//         bigestWord = string;
+//     }
+// }
+// console.log(bigestWord)
+
+// const string = "The quick brown fox jumped over the lazy dog";
+
+// const stringArr = string.split(' ');
+// console.log(stringArr)
+
+
+// // console.log(bigestWord);
+// for (let i = 0; i < stringArr.length; i += 1){
+//     console.log(stringArr[i].length)
+//     let bigestWord = stringArr[0];
+    
+//     if (stringArr[i].length > bigestWord) {
+//         bigestWord = stringArr[i].length;
+        
+//     }
+//    console.log(bigestWord)
+        
+    
+// }
 
 
