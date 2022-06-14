@@ -289,4 +289,147 @@
 // }
 
 // console.log(getFriendsByOnlineStatus(friends))
+// --------------------------------------------------------------
+// расспыление spread(...)
 
+
+// const numbers = [...[0,5,10],...[1, 2, 3],...[4,5]];
+// console.log(numbers)
+
+// поиск самой маленькой или большой температуры
+// const temps = [18, 14, 12, 21, 17, 29, 24];
+// console.log('max temp: ',Math.max(...temps));
+// console.log('min temp: ',Math.min(...temps))
+
+// сшить несколько масивов в один через конкат и spread
+
+// const lastWeekTemps = [1, 2, 3];
+// const currentTemps = [4, 5, 6];
+// const nextWeekTemps = [7, 8, 9];
+
+// const allTemps = [...lastWeekTemps,...currentTemps,...nextWeekTemps];
+// console.log(allTemps);
+
+// распыление обьектов
+// Object.prototype.assign() и spread
+
+// const a = { x: 1, y: 2 };
+// const b = { x: 0, z: 3 };
+
+// const c = {};
+// Object.assign(c, a, b);
+
+// или так
+// const c = {
+//     ...a,
+//     ...b,
+// }
+
+
+// console.log(c)
+// -----------------------------------------------------------------------
+
+
+// ---------------------------ДЕСТРУКТАРИЗАЦИЯ---------------------
+// const playlist = {
+    
+//     name: 'мой супер плейлист',
+//     rating: 5,
+//     tracks: ['трек 1', "трек 2", "трек 3"],
+//     trackCount: 3
+
+// };
+// деструкторизация
+// const { name,rating,tracks,trackCount:numberOfTracks,author='user', } = playlist;
+//
+// console.log(name, rating, tracks,trackCount );
+
+// ---Глубокая деструкторизация---------------------
+
+// const profile = {
+//     name: 'Jacques Gluke',
+//     tag: 'jgluke',
+//     location: 'Ocho Rios, Jamaica',
+//     avatar: 'Photo01',
+//     stats: {
+//         followers: 5603,
+//         views: 4827,
+//         likes:1308,
+//     },
+// }
+// const { name, tag, location, avatar, stats:{followers,views,likes}, } = profile
+
+// console.log(name, tag, location, avatar, followers, views, likes);
+
+// Деструктаризация массивов
+
+// const rgb = [255, 100, 80];
+// const [a, b, c] = rgb
+// console.log(a,b,c)
+// --------------------------------------------------------------------
+
+// Операция Rest(сбор)
+
+// const profile = {
+//     name: 'Jacques Gluke',
+//     tag: 'jgluke',
+//     location: 'Ocho Rios, Jamaica',
+//     avatar: 'Photo01',
+//     stats: {
+//         followers: 5603,
+//         views: 4827,
+//         likes:1308,
+//     },
+// }
+// const { name, tag, location, ...restProps } = profile;
+// console.log(name, tag, location);
+// console.log(restProps);
+// --------------------------------------------------------------------
+// const profile = {
+//     name: 'Jacques Gluke',
+//     tag: 'jgluke',
+//     location: 'Ocho Rios, Jamaica',
+//     avatar: 'Photo01',
+//     stats: {
+//         followers: 5603,
+//         views: 4827,
+//         likes:1308,
+//     },
+// }
+
+// const showProfileInfo = function (userProfile) {
+    
+//     const {
+//         name,
+//         tag,
+//         location,
+//         avatar,
+//         stats:{followers,views,likes}
+//     } = userProfile
+    
+//     console.log(name, tag, location, avatar, followers, views, likes);
+    
+// };
+
+// showProfileInfo(profile);
+
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   rating: 8.38,
+// };
+
+// for (const key in book) {
+//   // Если это собственное свойство - выполняем тело if
+//   if (book.hasOwnProperty(key)) {
+//     console.log(key);
+//     console.log(book[key]);
+//   }
+
+//   // Если это не собственное свойство - ничего не делаем
+// }
+
+
+ 
